@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/">
+    <file>resoure/icon.jpg</file>
+    <file>resoure/favicon.ico</file>
+    <file>resoure/add.png</file>
+    <file>resoure/download.png</file>
+    <file>resoure/exit.png</file>
+    <file>resoure/fixedtime.png</file>
+    <file>resoure/FTP.png</file>
+    <file>resoure/stop.png</file>
+    <file>resoure/synchronous.png</file>
+    <file>resoure/view.png</file>
+  </qresource>
+</RCC>
