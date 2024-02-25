@@ -157,7 +157,7 @@ class FtpDownloads(QMainWindow,Ui_MainWindow):
         info = psutil.virtual_memory()
         use_memory=psutil.Process(os.getpid()).memory_info().rss/(1024*1024)
         self.textBrowser.append("已占用内存" + str(use_memory)+"M")
-        if use_memory >= 45:
+        if use_memory >= 1000:
             print("内存占用过大，已占用内存：" + str(use_memory))
             self.textBrowser.append("内存占用过大，已占用内存" + str(use_memory)+"M")
             is_close=QMessageBox.information(self, '警告', "内存占用过大，已占用内存" + str(use_memory)+"M 是否关闭程序重启？",
